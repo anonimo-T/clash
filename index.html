@@ -72,11 +72,22 @@
     </section>
 
     <div class="pesquisa">
-        <input type="text" placeholder="Name of Letter" id="txtNome" required/>
+        <input list="cardsList" type="text" placeholder="Name of Letter" id="txtNome" required/>
+        <datalist id="cardsList">
+            <option value="barbarian-barrel">
+            <option value="mega-minion">
+            <option value="fireball">
+            <option value="tornado">
+        </datalist>
+
         <div class="sc">
             <img id="botao" id="search" src="assets/img/botao.png"></img>
         </div>
     </div>
+
+    <section class="cards">
+
+    </section>
 </div>
 <div class="aviso">
     <h1>Desculpe, estamos em fase de testes...</h1>
